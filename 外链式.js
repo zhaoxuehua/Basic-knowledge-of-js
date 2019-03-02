@@ -375,7 +375,6 @@ console.log(getDays(2016, 3, 8));
 (function () {
     console.log(1);
 })
-
     //匿名函数调用
     //法一直接调用
     (function () {
@@ -400,7 +399,6 @@ function createstudent(name) {
         console.log(this.name + "说：大家好！");
     }
 }
-
 //用递归法求1-100的和
 alert(getSum(100));
 function getSum(n) {
@@ -443,26 +441,3 @@ var arr8=arr7.every(function(item,index,array){
 //filter()返回值是一个新数组
 //map()返回该函数结果组成的新数组
 //forEach()遍历数组，无返回值
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
